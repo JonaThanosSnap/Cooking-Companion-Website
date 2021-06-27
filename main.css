@@ -5,11 +5,29 @@
     background: #DD2525;
 }
 
-.about{
+#aboutBtn{
     position: absolute;
     width: 164px;
     height: 54px;
     left: 806px;
+    top: 30px;
+    background: #E86262;
+}
+
+#teamBtn{
+    position: absolute;
+    width: 164px;
+    height: 54px;
+    left: 1020px;
+    top: 30px;
+    background: #E86262;
+}
+
+#helpBtn{
+    position: absolute;
+    width: 164px;
+    height: 54px;
+    left: 1234px;
     top: 30px;
     background: #E86262;
 }
