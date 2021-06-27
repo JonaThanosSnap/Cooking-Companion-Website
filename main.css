@@ -5,31 +5,40 @@
     background: #DD2525;
 }
 
-#aboutBtn{
+.btn{
     position: absolute;
     width: 164px;
     height: 54px;
+    background: #E86262;
+    
+    position: absolute;
+    width: 139px;
+    height: 50px;
+    left: 847px;
+    top: 39px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+
+#aboutBtn{
     left: 806px;
     top: 30px;
-    background: #E86262;
 }
 
 #teamBtn{
-    position: absolute;
-    width: 164px;
-    height: 54px;
     left: 1020px;
     top: 30px;
-    background: #E86262;
 }
 
 #helpBtn{
-    position: absolute;
-    width: 164px;
-    height: 54px;
     left: 1234px;
     top: 30px;
-    background: #E86262;
 }
 
 h1{
