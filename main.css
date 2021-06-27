@@ -1,0 +1,31 @@
+:root{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #DD2525;
+}
+
+.about{
+    position: absolute;
+    width: 164px;
+    height: 54px;
+    left: 806px;
+    top: 30px;
+    background: #E86262;
+}
+
+h1{
+    position: absolute;
+    width: 410px;
+    height: 166px;
+    left: 137px;
+    top: 65px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 68px;
+    line-height: 102px;
+    
+    color: #FFFFFF;
+}
