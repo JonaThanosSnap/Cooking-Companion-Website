@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>help us!</title>
+    <script src="main.js"></script>
 </head>
 <body>
     <h2>help us!</h2>
     <p>Help us add new recipe ideas to our list! We are always looking to expand our tastebuds :)</p>
     <img src="sushi.png">
     <div>
-        <input type="text">
-        <button type="button">enter</button>
+        <input type="text" id="input">
+        <button onclick="displayRecipe()" type="button" >enter</button>
     </div>
     <div>
         <h5>Recently added:</h5>
-        <h5 id="recipe"></h5>
+        <h5 id="display"></h5>
     </div>
-    
 </body>
 </html>
