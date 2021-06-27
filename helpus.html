@@ -8,17 +8,93 @@
     <script src="main.js"></script>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
-    <h2>help us!</h2>
-    <p>Help us add new recipe ideas to our list! We are always looking to expand our tastebuds :)</p>
-    <img src="sushi.png">
     <div>
-        <input type="text" id="input">
-        <button onclick="displayRecipe()" type="button">enter</button>
+        <a type="button" class="btn" id="homeBtn" href="home.html"><center>home</center></a>
+        <a type="button" class="btn" id="aboutBtn" href="about.html"><center>about</center></a>
+        <a type="button" class="btn" id="teamBtn" href="theteam.html"><center>the team</center></a>
+        <a role="button" class="btn" id="helpBtn" href="helpus.html"><center>help us!</center></a>
     </div>
+
+    <h1 id="topLeft">help us!</h1>
+    
+    <div style="position: absolute;
+    width: 986px;
+    height: 166px;
+    left: 227px;
+    top: 287px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    color: #FFFFFF;">
+        Help us add new recipe ideas to our list! We are always looking to expand our tastebuds :)
+    </div>
+    
+    <img style="position: absolute;
+    width: 137px;
+    height: 129px;
+    left: 651px;
+    top: 401px;"
+    src="sushi.png">
+    
     <div>
-        <h5>Recently added:</h5>
-        <h5 id="display"></h5>
+        <input style="position: absolute;
+        width: 626px;
+        height: 60px;
+        left: 302px;
+        top: 563px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #000000;"
+        type="text" id="input">
+        
+        <button style="position: absolute;
+        width: 164px;
+        height: 54px;
+        left: 958px;
+        top: 564px;
+        background: #E86262;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 37px;
+        color: #000000;"
+        onclick="displayRecipe()" type="button">
+            enter
+        </button>
+    </div>
+
+    <div>
+        <h5 style="position: absolute;
+        width: 410px;
+        height: 166px;
+        left: 421px;
+        top: 600px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 67px;
+        color: #FFFFFF;">
+            Recently added:
+        </h5>
+        
+        <h5 style="position: absolute;
+        width: 204px;
+        height: 89px;
+        left: 760px;
+        top: 600px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 67px;
+        color: #FF8181;"
+        id="display">
+    </h5>
     </div>
 </body>
 </html>
